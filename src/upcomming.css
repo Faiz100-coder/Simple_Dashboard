@@ -1,0 +1,50 @@
+.schedule-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  overflow: hidden;
+}
+
+.schedule-header {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.schedule-body {
+  padding: 1rem;
+}
+
+.day-group {
+  margin-bottom: 1rem;
+}
+
+.day-title {
+  color: #6c757d;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.appointment-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.appointment-icon {
+  font-size: 1.25rem;
+}
+
+.appointment-details {
+  flex-grow: 1;
+}
+
+.appointment-time {
+  font-size: 0.8rem;
+  color: #6c757d;
+}

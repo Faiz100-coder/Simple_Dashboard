@@ -1,0 +1,47 @@
+/* ScheduleSection.css */
+.day-column {
+  width: 80px;
+  background: #f8f9fa;
+  transition: background 0.3s ease;
+}
+
+.active-day {
+  background: #e8f0ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time-slot {
+  background: #e0e0e0;
+  border-radius: 8px;
+  padding: 4px 0;
+  font-size: 0.85rem;
+}
+
+.time-slot.selected {
+  background: #4c4cf1;
+  color: white;
+  font-weight: bold;
+}
+
+.dentist-card {
+  background-color: #4c4cf1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.physiotherapy-card {
+  background-color: #edf0fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+.upcoming-schedule h4 {
+  font-weight: bold;
+  color: #2c2c6c;
+}
+
+.schedule-card {
+  background-color: #edf0fa;
+  color: #2c2c6c;
+  min-width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}

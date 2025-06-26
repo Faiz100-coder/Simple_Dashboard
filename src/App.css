@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: rgb(244, 244, 253);
+    
+}
+.nav-link{
+color:#545558;
+cursor: pointer;
+}
+.navigation{
+    background-color:#e9f1fb ;
+    min-height: '100vh'
+}
+
+.calender{
+   background-color:#e9f1fb ;  
+}
+
+
+

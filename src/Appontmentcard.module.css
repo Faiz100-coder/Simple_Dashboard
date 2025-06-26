@@ -1,0 +1,26 @@
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 16px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.time {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.doctor {
+    font-size: 16px;
+    color: #333;
+}
